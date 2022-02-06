@@ -1,0 +1,80 @@
+body{
+
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: solid 2px black;
+}
+
+.content {
+    border: solid 2px yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signInSec {
+    display: flex;
+    flex-direction: column; 
+    border: solid 2px black;
+    border-radius: 4px;
+    height: 600px;
+    width: 500px;
+}
+
+.signIn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end; 
+    height: 100px;
+    border: solid 2px gold;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.userForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 250px;
+  
+}   
+
+#username, #password {
+    box-sizing: border-box;
+    width: 400px;
+    height: 60px;
+    border: solid 3px rgb(119, 118, 118);
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.checkStay {
+    display: flex;
+    flex-direction: row;
+
+    border: solid 2px greenyellow;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border: solid 2px blue;
+}
+
+.remarks {
+    display: flex;
+    flex-direction: row;
+    border: solid 2px gray;
+}
