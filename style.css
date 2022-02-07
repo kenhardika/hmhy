@@ -11,6 +11,7 @@ body{
     flex-direction: column;
     padding: 20px;
     border: solid 2px black;
+    font-size: 22px;
 }
 
 .content {
@@ -24,7 +25,7 @@ body{
     display: flex;
     flex-direction: column; 
     border: solid 2px black;
-    border-radius: 4px;
+    border-radius: 6px;
     height: 600px;
     width: 500px;
 }
@@ -35,7 +36,7 @@ body{
     align-items: center;
     justify-content: flex-end; 
     height: 100px;
-    border: solid 2px gold;
+    /* border: solid 2px gold; */
     font-size: 28px;
     font-weight: 600;
 }
@@ -43,11 +44,11 @@ body{
 .userForm {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
+    padding: 0 50px 0 50px;
     justify-content: center;
     width: 500px;
     height: 250px;
-  
 }   
 
 #username, #password {
@@ -60,12 +61,60 @@ body{
 }
 
 .checkStay {
-    display: flex;
-    flex-direction: row;
-
-    border: solid 2px greenyellow;
+    /* display: flex;
+    flex-direction: row; */
+    font-size: 14px;
+    padding: 5px 0 5px 0;
+    color: rgb(36, 36, 36);
+    /* border: solid 2px greenyellow; */
 }
 
+.signInButton {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#signInButton {
+    font-size: 21px;
+    width: 60px;
+    height: 60px;
+    background-color: #d13639;
+    border: solid 2px #d13639;
+    border-radius: 20px;
+    color: white;
+}
+
+#signInButton:hover {
+    background-color: #b42e30;
+    border: solid 2px #b32e30;
+    cursor: pointer;
+}
+
+.cantSignIn, .createAcc 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+}
+
+.cantSignIn{
+    padding: 40px 0 5px 0;
+}
+
+a {
+    color: rgb(65, 64, 64);
+    cursor: pointer;  
+    text-decoration: none;   
+}
+a:hover {
+    color: rgb(29, 28, 28);
+}
+
+a:visited {
+    text-decoration: none;
+}
 .footer {
     display: flex;
     flex-direction: row;
