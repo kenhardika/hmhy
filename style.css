@@ -121,7 +121,7 @@ a:visited {
 .bottomPage {
     box-sizing: border-box;
     display: grid;
-    grid-template-rows: repeat(2,87px );
+    grid-template-rows: repeat(2,50px );
 }
 
 .footer {
@@ -135,6 +135,7 @@ a:visited {
 .remarks {
     display: flex;
     flex-direction: row;
+    height: 60px;
     font-size: 14px;
     align-items: center;
     justify-content: center;
